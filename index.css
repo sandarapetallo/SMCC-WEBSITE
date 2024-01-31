@@ -1,4 +1,27 @@
 body{
     background-image: url(img/bg.jpg);
-
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+header li{
+    display: inline-block;
+    font-weight: bold;
+   
+}
+header li a{
+    margin-right: 15px;
+    Position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+header{
+    text-align: center;
+    background-color: rgba(12, 106, 143, 0.753);
+    font-style: initial;
+}
+header nav{
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
 }
