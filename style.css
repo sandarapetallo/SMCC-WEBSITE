@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -13,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styles */
+
 header {
     background-color: #3498db;
     color: #fff;
@@ -25,38 +23,47 @@ header h1 {
     font-size: 2em;
 }
 
-/* Navigation Styles */
+
 nav {
     margin-top: 20px;
 }
-
 nav a {
     color: #333;
     text-decoration: none;
     padding: 10px 15px;
     margin: 0 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-left: 90px;
+    text-align: center;
 }
 
 nav a:hover {
     background-color: #eee;
-    color: #333;
+    color: #e90909;
+    border-radius: 20px;
+
+
 }
 
-/* Main Content Styles */
 main {
     padding: 20px 0;
 }
 
+ul a{
+    color: white;
+}
 section {
     margin-bottom: 30px;
 }
 
-/* Footer Styles */
+
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 10px 0;
+   
+   
 }
 
 /* Responsive Styles */
